@@ -8,8 +8,10 @@ body{
 .wrapper{
     width: 320px;
     height: 480px;
-    position:relative;
-    overflow:scroll;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow-y: hidden;
 }
 .loading{
     background: url(../images/loading-screen.jpg) no-repeat center top;
