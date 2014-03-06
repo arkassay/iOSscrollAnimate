@@ -4,6 +4,7 @@ body{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 0;
+    background: black
 }
 .wrapper{
     width: 320px;
@@ -11,10 +12,11 @@ body{
     position: fixed;
     top: 0px;
     left: 0px;
-    overflow-y: hidden;
+    overflow:scroll;
+    /*overflow-y: hidden;*/
 }
 .loading{
-    background: url(../images/loading-screen.jpg) no-repeat center top;
+    background: url(../img/loading-screen.jpg) no-repeat center top;
     background-size: 100% auto;
     height: 100%;
     width: 100%;
@@ -26,6 +28,7 @@ body{
     position:absolute;
     top: 0;
     z-index: 1;
+    
 }
 .piece{
     width: 100%;
