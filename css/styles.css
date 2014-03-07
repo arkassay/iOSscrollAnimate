@@ -13,8 +13,7 @@ body{
     top: 0px;
     left: 0px;
     overflow:scroll;
-    /*overflow-y: hidden;*/
-}
+   }
 .loading{
     background: url(../img/loading-screen.jpg) no-repeat center top;
     background-size: 100% auto;
@@ -24,10 +23,29 @@ body{
     display:block;
     z-index: 2;
 }
+.loader{
+    position:absolute;
+    top: 355px;
+    left: 50%;
+    margin-left: -16px;
+}
+.settings {
+    position: fixed;
+    bottom: -120px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    background: none;
+}
+.settings img{
+    max-width: 100%;
+}
 .menu{
     position:absolute;
     top: 0;
     z-index: 1;
+    display: none;
     
 }
 .piece{
